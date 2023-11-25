@@ -10,7 +10,7 @@ const LoginPage = () => {
           <span>Accound id</span>
         </div>
         <div className="inputBox">
-          <input type="text" required="required" />
+          <input type="password" required="required" />
           <span>PassWord</span>
         </div>
         <a href="adminn.html">
