@@ -1,6 +1,12 @@
-import LoginPage from "./components/login";
+import Question from "./components/quizapp/questio";
+import Answer from "./components/quizapp/answer";
 const App = () => {
-  return <LoginPage />;
+  return (
+    <div>
+      <Question></Question>
+      <Answer></Answer>
+    </div>
+  );
 };
 
 export default App;
