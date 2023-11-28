@@ -1,3 +1,5 @@
+import "./answer.css";
+  
 const Answer = () => {
   return (
     <>
@@ -34,7 +36,7 @@ const Answer = () => {
               htmlFor="first"
               className="h-10 w-40 bg-black text-white rounded-md"
             >
-              D. Pradip
+              D. Prathip
             </button>
           </div>
         </div>
