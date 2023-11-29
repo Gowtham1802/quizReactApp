@@ -1,4 +1,5 @@
 import "../loginpage/login.css";
+import { signInWithGooglePopup } from "firebase";
 
 const Login = () => {
   return (
@@ -23,7 +24,7 @@ const Login = () => {
             className="text-teal-400 font-medium"
             // onClick={signInWithGoogle}
           >
-            Google Sign
+            Google Sign In 
           </button>
         </a>
         <a href="" className="text-teal-400 font-medium">
