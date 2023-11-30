@@ -1,5 +1,5 @@
 import "../loginpage/login.css";
-import { signInWithGooglePopup } from "firebase";
+// import { signInWithGooglePopup } from "firebase";
 
 const Login = () => {
   return (
@@ -19,14 +19,7 @@ const Login = () => {
         <a href="question.jsx">
           <button className="text-teal-400 font-medium">Login</button>
         </a>
-        <a href="">
-          <button
-            className="text-teal-400 font-medium"
-            // onClick={signInWithGoogle}
-          >
-            Google Sign In 
-          </button>
-        </a>
+        
         <a href="" className="text-teal-400 font-medium">
           Forget password?
         </a>

@@ -4,10 +4,21 @@ body{
   /* background: linear-gradient(rgb(252, 202, 210)); */
   /* background: linear-gradient(to right, #fe009a, rgb(233, 179, 112), #FDDA0D); */
   /* background-image: url(src/assets/images/bg.jpg); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+  
+    background: url(src/assets/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    /* background: #1d2b3a;
+    background: url(src/assets/images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+  
+    }
 #box
 {
   border-top-right-radius: 50px;
@@ -17,4 +28,10 @@ body{
   background-color: rgba(255, 255, 255, 0.250) ;
   
   backdrop-filter: blur(8px);
+}
+
+
+#btn button{
+  border: 2px solid rgb(80, 211, 240);
+  box-shadow: 0px 0px 3px 3px rgb(107, 236, 240) , inset 0px 0px 3px 3px rgb(95, 237, 242);
 }

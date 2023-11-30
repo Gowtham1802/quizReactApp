@@ -1,44 +1,29 @@
 import "./answer.css";
-  
-const Answer = () => {
+
+const Answer = ({ answerList }) => {
   return (
     <>
-      <div className="w-[100%] flex flex-col justify-center items-center gap-[4rem] mt-[2rem]">
-        <div className="flex flex-row justify-between items-center gap-[10rem]">
-          <div className="">
-            <button
-              htmlFor="first"
-              className="h-10 w-40 bg-black text-white rounded-md "
-            >
-              A. Gowtham
-            </button>
-          </div>
-          <div className="">
-            <button
-              htmlFor="second"
-              className="h-10 w-40 bg-black text-white rounded-md "
-            >
-              B. Bala
-            </button>
-          </div>
-        </div>
-        <div className="width-[30rem] flex flex-row justify-between items-center gap-[10rem]">
-          <div className="">
-            <button
-              htmlFor="first"
-              className="h-10 w-40 bg-black text-white rounded-md"
-            >
-              C. Abi
-            </button>
-          </div>
-          <div className="">
-            <button
-              htmlFor="first"
-              className="h-10 w-40 bg-black text-white rounded-md"
-            >
-              D. Prathip
-            </button>
-          </div>
+      <div className="w-[100%] flex flex-row justify-start items-center gap-[4rem] mt-[2rem]">
+        <div className="w-[100%] h-[10rem] flex flex-wrap justify-around items-center">
+          {answerList.map((ele, ind) => {
+            return (
+              <div className="w-[15rem] flex justify-center" key={ind}>
+                <button
+                  className="h-12 w-40 bg-black text-white rounded-md "
+                  key={ind}
+                >
+                  {ind === 0
+                    ? "A. "
+                    : ind === 1
+                    ? "B. "
+                    : ind === 2
+                    ? "C. "
+                    : "D. "}
+                  {ele}
+                </button>
+              </div>
+            );
+          })}
         </div>
       </div>
     </>
