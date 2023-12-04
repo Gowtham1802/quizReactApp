@@ -5,7 +5,7 @@ body{
   /* background: linear-gradient(to right, #fe009a, rgb(233, 179, 112), #FDDA0D); */
   /* background-image: url(src/assets/images/bg.jpg); */
   
-    background: url(src/assets/images/bg.jpg);
+    /* background: url(src/assets/images/bg.jpg); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       animation:{
-        "bounce": 'bounce 3s linear infinite'
+  
       }
     },
   },

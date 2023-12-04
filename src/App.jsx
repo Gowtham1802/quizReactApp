@@ -1,7 +1,8 @@
 import Question from "./components/quizapp/questio";
 import Answer from "./components/quizapp/answer";
 import Login from "./components/loginpage/login";
-import Signin from "./components/signinpage/signin";
+// import SignIn from "./components/loginpage/login";
+import SignIn from "./components/signinpage/signin";
 import "./App.css";
 import data from "./data";
 import { useState } from "react";
@@ -41,47 +42,53 @@ const App = () => {
   };
 
   return (
-    <div
-      id="page1"
-      className="w-[100vw] min-h-screen flex flex-col justify-center items-center "
-    >
-      <div
-        id="box"
-        className="w-[40rem] rounded-l-sm	 h-[25rem] flex flex-col justify-around items-center shadow-md"
-      >
-        <Question index={index} question={question} />
-        <Answer answerList={answer} />
-      </div>
-      <div
-        id="btn"
-        className="flex flex-row justify-around items-center shadow-md mt-[2rem] gap-40 "
-      >
-        <div className="">
-          <button
-            className={`h-10 w-40 bg-black text-white rounded-md ${"disabled:opacity-70"}`}
-            onClick={prevBtnHandler}
-            disabled={index === 0 ? true : false}
-          >
-            Prev
-          </button>
-        </div>
-        <div className="">
-          <button
-            className={`h-10 w-40 bg-black text-white rounded-md ${"disabled:opacity-70"}`}
-            onClick={nextBtnHandler}
-            disabled={index === db.length - 1 ? true : false}
-          >
-            Next
-          </button>
-        </div>
-      </div>
-    </div>
+    // <div
+    //   id="page1"
+    //   className="w-[100vw] min-h-screen flex flex-col justify-center items-center "
+    // >
+    //   <div
+    //     id="box"
+    //     className="w-[40rem] rounded-l-sm	 h-[25rem] flex flex-col justify-around items-center shadow-md"
+    //   >
+    //     <Question index={index} question={question} />
+    //     <Answer answerList={answer} />
+    //   </div>
+    //   <div
+    //     id="btn"
+    //     className="flex flex-row justify-around items-center shadow-md mt-[2rem] gap-40 "
+    //   >
+    //     <div className="">
+    //       <button
+    //         className={`h-10 w-40 bg-black text-white rounded-md ${"disabled:opacity-70"}`}
+    //         onClick={prevBtnHandler}
+    //         disabled={index === 0 ? true : false}
+    //       >
+    //         Prev
+    //       </button>
+    //     </div>
+    //     <div className="">
+    //       <button
+    //         className={`h-10 w-40 bg-black text-white rounded-md ${"disabled:opacity-70"}`}
+    //         onClick={nextBtnHandler}
+    //         disabled={index === db.length - 1 ? true : false}
+    //       >
+    //         Next
+    //       </button>
+    //     </div>
+    //   </div>
+    // </div>
     // <div>
     //   <Login />
     // </div>
     // <div>
-    //   <Signin />
+    //   <signInWithGooglePopup/>
     // </div>
+    // <div>
+    //   <SignIn />
+    // </div>
+    <div>
+      <SignIn />
+    </div>
   );
 };
 
