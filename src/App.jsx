@@ -77,18 +77,15 @@ const App = () => {
     //     </div>
     //   </div>
     // </div>
-    // <div>
-    //   <Login />
-    // </div>
+    <div>
+      <Login />
+    </div>
     // <div>
     //   <signInWithGooglePopup/>
     // </div>
     // <div>
     //   <SignIn />
     // </div>
-    <div>
-      <SignIn />
-    </div>
   );
 };
 
