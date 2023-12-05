@@ -1,4 +1,4 @@
-import "../signinpage/signin.css";
+// import "../signinpage/signin.css";
 import { signInWithGooglePopup } from "../../firebase";
 
 const SignIn = () => {
