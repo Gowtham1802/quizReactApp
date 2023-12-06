@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     extend: {
-      animation:{
+      backgroundImage:{
+        'quizLogo' : "url('./src/components/dashboardpage/img/quiz logo.jpg')",
   
       }
     },
