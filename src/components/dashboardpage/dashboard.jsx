@@ -14,16 +14,35 @@ import { FaLandmarkFlag } from "react-icons/fa6";
 import { TbCarSuv } from "react-icons/tb";
 import { MdOutlineSmartToy } from "react-icons/md";
 import { SiEngadget } from "react-icons/si";
+import { CgProfile } from "react-icons/cg";
 
 const DashBoard = () => {
   return (
     <div className="dashboard">
-      <div className="header w-[100%] h-[6rem] bg-indigo-950 flex justify-start items-center gap-4">
-        <div className="bg-quizLogo w-[8rem] h-[100%] bg-contain bg-center bg-no-repeat"></div>
-        <div className="">
-          <h1 className="text-gray-50 text-[1.1rem]">Home</h1>
+      <div className="header w-[100%] h-[6rem] bg-indigo-950 flex justify-between items-center ">
+        <div className="w-[50rem] flex justify-start items-center self-stretch gap-20">
+          <div className="bg-quizLogo w-[5rem] h-[100%] ml-10 bg-contain bg-center bg-no-repeat"></div>
+          <div className="home">
+            <h1 className="text-gray-50 text-[1.3rem] font-bold ">HOME</h1>
+          </div>
+          <div className="home">
+            <h1 className="text-gray-400 text-[1.3rem] font-bold ">RECORDS</h1>
+          </div>
+          <div className="home">
+            <h1 className="text-gray-400 text-[1.3rem] font-bold">
+              LEADERBOARD
+            </h1>
+          </div>
+        </div>
+
+        <div className=" ">
+          <CgProfile className="text-[3rem] mr-11 text-zinc-50" />
+        </div>
+        <div className="popup w-[20rem] h-[16rem] bg-slate-500 absolute top-[5rem] right-[2.8rem] rounded-xl">
+          USERNAME
         </div>
       </div>
+
       <div className="category-list">
         <div className="flex-box">
           <div className="flex-item flex-item-1 text-[20px] font-bold">
