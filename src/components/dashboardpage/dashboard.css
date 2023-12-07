@@ -12,6 +12,7 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  /* background-color: color-mix(in srgb, #3b87e4 50%, #fbfe6b 50%); */
   background: linear-gradient(to top right, rgb(255, 128, 124), rgb(123, 122, 120), #4df3d2);
   backdrop-filter: blur(2px);
     border-radius: 25px;
