@@ -17,6 +17,7 @@ import { SiEngadget } from "react-icons/si";
 import { CgProfile } from "react-icons/cg";
 import { RiAccountCircleLine } from "react-icons/ri";
 import { TbLogout } from "react-icons/tb";
+import { CiCircleRemove } from "react-icons/ci";
 
 const DashBoard = () => {
   return (
@@ -45,6 +46,9 @@ const DashBoard = () => {
           <div className="w-full flex justify-between items-center border-b-[1px] py-4">
             <RiAccountCircleLine className="text-[3rem]" />
             <div className="text-[1.3rem] font-bold flex flex-col">
+              <div className=" text-[3.5rem] absolute top-[-3.7rem] right-[-0.3rem]">
+                <CiCircleRemove className="flex justify-end bg-indigo-950 text-zinc-50 rounded-full" />
+              </div>
               <h1>USERNAME</h1>
               <h2>Gowtham7575@gmail.com</h2>
             </div>
