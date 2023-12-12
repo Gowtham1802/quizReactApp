@@ -2,7 +2,9 @@ const HistoryPage = () => {
   return (
     <div className="w-full min-h-full ">
       <div className="mt-6 ml-20 text-[2rem] font-bold min-h-full">
-        <h1 className="text-center">History / Previous Records </h1>
+        <h1 className="text-center italic hover:not-italic">
+          History / Previous Records{" "}
+        </h1>
       </div>
       <div className="w-full flex flex-col justify-start items-center">
         <div className="w-[85rem] flex flex-row flex-wrap justify-start gap-[3rem] mt-10 px-[1.5rem]">

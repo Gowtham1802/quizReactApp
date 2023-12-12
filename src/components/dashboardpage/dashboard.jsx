@@ -19,6 +19,7 @@ import { RiAccountCircleLine } from "react-icons/ri";
 import { TbLogout } from "react-icons/tb";
 import { CiCircleRemove } from "react-icons/ci";
 import { HistoryPage } from "../historypage/history";
+import LeaderBoardPage from "../leaderboardpage/leaderboard";
 
 const DashBoard = () => {
   return (
@@ -62,7 +63,8 @@ const DashBoard = () => {
           </div>
         </div>
       </div>
-      <HistoryPage></HistoryPage>
+      {/* <HistoryPage></HistoryPage> */}
+      {<LeaderBoardPage></LeaderBoardPage>}
       {/* <div className="text-[2rem] font-bold mt-10">
         <h1 className="flex justify-center items-center italic hover:not-italic">
           Select a Category

@@ -4,6 +4,7 @@
 // // import SignIn from "./components/loginpage/login";
 // import SignIn from "./components/signinpage/signin";
 import DashBoard from "./components/dashboardpage/dashboard";
+// import LeaderBoardPage from "./components/leaderboardpage/leaderboard";
 // import HistoryPage from "./components/historypage/history";
 // import "./App.css";
 import data from "./data";
