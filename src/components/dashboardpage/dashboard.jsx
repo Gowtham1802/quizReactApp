@@ -18,11 +18,12 @@ import { CgProfile } from "react-icons/cg";
 import { RiAccountCircleLine } from "react-icons/ri";
 import { TbLogout } from "react-icons/tb";
 import { CiCircleRemove } from "react-icons/ci";
+import { HistoryPage } from "../historypage/history";
 
 const DashBoard = () => {
   return (
-    <div className="dashboard bg-gray-300">
-      <div className="header w-[100%] h-[6rem] bg-indigo-950 flex justify-between items-center ">
+    <div className="dashboard bg-gray-300 w-full min-h-[100vh]">
+      <div className="header w-[100%] h-[6rem] bg-indigo-950 flex justify-between items-center">
         <div className="w-[50rem] flex justify-start items-center self-stretch gap-20">
           <div className="bg-quizLogo w-[5rem] h-[100%] ml-10 bg-contain bg-center bg-no-repeat"></div>
           <div className="home">
@@ -38,11 +39,11 @@ const DashBoard = () => {
           </div>
         </div>
 
-        <div className=" ">
+        <div className="">
           <CgProfile className="text-[3rem] mr-11 text-zinc-50" />
         </div>
 
-        <div className="popup w-[25rem] h-[13rem] bg-slate-400 absolute top-[5rem] right-[2.8rem] rounded-xl px-8 z-10">
+        <div className="popup w-[25rem] h-[13rem] bg-slate-400 absolute top-[5rem] right-[2.8rem] rounded-xl px-8 z-10 hidden">
           <div className="w-full flex justify-between items-center border-b-[1px] py-4">
             <RiAccountCircleLine className="text-[3rem]" />
             <div className="text-[1.3rem] font-bold flex flex-col">
@@ -61,7 +62,8 @@ const DashBoard = () => {
           </div>
         </div>
       </div>
-      <div className="text-[2rem] font-bold mt-10">
+      <HistoryPage></HistoryPage>
+      {/* <div className="text-[2rem] font-bold mt-10">
         <h1 className="flex justify-center items-center italic hover:not-italic">
           Select a Category
         </h1>
@@ -160,7 +162,7 @@ const DashBoard = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
