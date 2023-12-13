@@ -23,7 +23,7 @@ import LeaderBoardPage from "../leaderboardpage/leaderboard";
 
 const DashBoard = () => {
   return (
-    <div className="dashboard bg-gray-300 w-full min-h-[100vh]">
+    <div className="dashboard bg-gradient-to-r from-red-300 via-amber-200 to-orange-300 ...  w-full min-h-[100vh]">
       <div className="header w-[100%] h-[6rem] bg-indigo-950 flex justify-between items-center">
         <div className="w-[50rem] flex justify-start items-center self-stretch gap-20">
           <div className="bg-quizLogo w-[5rem] h-[100%] ml-10 bg-contain bg-center bg-no-repeat"></div>
