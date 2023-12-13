@@ -23,8 +23,11 @@ import LeaderBoardPage from "../leaderboardpage/leaderboard";
 
 const DashBoard = () => {
   return (
-    <div className="dashboard bg-gradient-to-r from-red-300 via-amber-200 to-orange-300 ...  w-full min-h-[100vh]">
-      <div className="header w-[100%] h-[6rem] bg-indigo-950 flex justify-between items-center">
+    <div className="dashboard bg- w-full min-h-[100vh]" id="bc-clr">
+      <div
+        className="header w-[100%] h-[6rem] flex justify-between items-center bg-indigo-500 shadow-lg shadow-indigo-500/50 ..."
+        id="head-clr"
+      >
         <div className="w-[50rem] flex justify-start items-center self-stretch gap-20">
           <div className="bg-quizLogo w-[5rem] h-[100%] ml-10 bg-contain bg-center bg-no-repeat"></div>
           <div className="home">
@@ -64,16 +67,16 @@ const DashBoard = () => {
         </div>
       </div>
       {/* <HistoryPage></HistoryPage> */}
-      {<LeaderBoardPage></LeaderBoardPage>}
-      {/* <div className="text-[2rem] font-bold mt-10">
+      {/* {<LeaderBoardPage></LeaderBoardPage>} */}
+      <div className="text-[2rem] font-bold mt-10">
         <h1 className="flex justify-center items-center italic hover:not-italic">
           Select a Category
         </h1>
       </div>
 
       <div className="category-list">
-        <div className="flex-box">
-          <div className="flex-item flex-item-1 text-[20px] font-bold italic hover:not-italic">
+        <div className="flex-box ">
+          <div className="flex-item flex-item-1 text-[20px] font-bold italic hover:not-italic ">
             Musical Theaters
             <div className="category-img">
               <GiTheater className="text-[2rem]" />
@@ -164,7 +167,7 @@ const DashBoard = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

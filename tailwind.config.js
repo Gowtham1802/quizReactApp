@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        'quizLogo' : "url('./src/components/dashboardpage/img/quiz logo.jpg')",
+        'quizLogo' : "url('./src/components/dashboardpage/img/quiz_logo.png')",
+        'backgroundImg' : "url('./src/components/dashboardpage/img/dashbord dashbordbg.jpg')"
   
       }
     },

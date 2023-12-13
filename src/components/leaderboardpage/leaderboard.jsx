@@ -61,6 +61,9 @@ const LeaderBoardPage = () => {
           </p>
         </div>
       </div>
+      <div>
+        
+      </div>
     </div>
   );
 };
