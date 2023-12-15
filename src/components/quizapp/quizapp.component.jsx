@@ -1,8 +1,13 @@
-import data from "./data";
+import data from "../../data";
 import { useState } from "react";
 import { useEffect } from "react";
+import Question from "./questio";
+import Answer from "./answer";
+import "../../App.css";
+import Login from "../loginpage/login";
+// import SignIn from "../signinpage/signin";
 
-const Startquiz = () => {
+const StartQuiz = () => {
   // function
   const random = () => {
     return Math.trunc(Math.random() * 4);
@@ -71,17 +76,11 @@ const Startquiz = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Login />
-      </div>
-      <div>
-        <signInWithGooglePopup />
-      </div>
-      <div>
-        <SignIn />
-      </div>
+      <div>{/* <Login /> */}</div>
+      <div>{/* <signInWithGooglePopup /> */}</div>
+      <div>{/* <SignIn /> */}</div>
     </div>
   );
 };
 
-export default Startquiz;
+export default StartQuiz;

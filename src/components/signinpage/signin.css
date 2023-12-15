@@ -12,9 +12,9 @@
    background: url(src/components/signinpage/lbp2.avif);
 
    min-height: 100vh;
-   display: flex;
+   /* display: flex;
    justify-content: center;
-   align-items: center;
+   align-items: center; */
 
    /* background: #1d2b3a; */
    /* background: url(src/components/loginpage/lbp2.avif); */

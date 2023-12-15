@@ -9,9 +9,9 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     /* min-height: 100vh; */
     /* background: #1d2b3a;
     background: url(src/assets/images/bg.jpg);

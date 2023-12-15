@@ -1,5 +1,5 @@
 // import { signInWithGooglePopup } from "../firebase/index.jsx";
-
+import "../loginpage/login.css";
 const Login = () => {
   return (
     <div>
@@ -38,7 +38,7 @@ const Login = () => {
         } */}
 
         <a href="" className="text-teal-400 font-medium">
-          Forget password?
+          New Users Register?
         </a>
         <p className="text-[#ccc;]"></p>
       </div>

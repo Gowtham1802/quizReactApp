@@ -45,9 +45,9 @@
 background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);;
 }
 
-#head-clr{
+/* #head-clr{
   background-image: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
-}
+} */
 
 .flex-item{
   align-self: stretch;
