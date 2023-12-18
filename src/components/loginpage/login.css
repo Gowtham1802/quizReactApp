@@ -19,12 +19,20 @@ body {
 
 }
 
+.login-box{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .ip-container {
   /* background-color: rgba(0, 0, 0, 0.5); */
   background: linear-gradient(to top right, rgb(255, 128, 124), rgb(123, 122, 120), #4df3d2);
   backdrop-filter: blur(2px);
   border-radius: 25px;
-  padding: 10px;
+  padding: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +50,7 @@ body {
 
 .inputBox input {
   width: 100%;
-  padding: 10px;
+  padding: 13px;
   border: 1px solid rgba(255, 255, 255, 0.25);
   background: #1d2b3a;
   border-radius: 5px;
