@@ -1,8 +1,9 @@
 import { createContext, useContext, useState } from "react";
 
-const userContext = createContext();
+const UserContext = createContext();
+console.log(UserContext);
 
-export const userProvider = ({ children }) => {
+export const UserProvider = ({ children }) => {
   const [userEmail, setUserEmail] = useState(null);
   const [displayName, setDisplayName] = useState(null);
 
@@ -19,7 +20,7 @@ export const userProvider = ({ children }) => {
   };
 
   return (
-    <userContext.Provider
+    <UserContext.Provider
       value={{
         userEmail,
         displayName,
@@ -29,12 +30,11 @@ export const userProvider = ({ children }) => {
       }}
     >
       {children}
-    </userContext.Provider>
+    </UserContext.Provider>
   );
 };
 
-
-
 export const useUser = () => {
-  return useContext(userContext);
+  console.log(useContext(UserContext));
+  return useContext(UserContext);
 };

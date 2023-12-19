@@ -36,6 +36,7 @@ const DashBoard = () => {
             <div className="category-img">
               <GiTheater className="text-[2rem]" />
             </div>
+            <div></div>
           </div>
           <div className="flex-item flex-item-2 text-[20px] font-bold italic hover:not-italic">
             Books
