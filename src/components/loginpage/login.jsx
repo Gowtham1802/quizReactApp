@@ -59,7 +59,7 @@ const Login = () => {
     setFormFields({ ...formFields, [name]: value });
   };
   return (
-    <div className="login-box">
+    <div className="login-box bg-homeBackgroundImg bg-no-repeat bg-cover">
       <div className="ip-container">
         <h1 className="text-center; text-[#00dfc4;] text-teal-400 font-extrabold">
           LOGIN
